@@ -1,21 +1,25 @@
 
 # Teorema do Horizonte de Probabilidades: Limiares Dinâmico-Informacionais em Sistemas Probabilísticos Adaptativos.
 
+<p align="center">
+  <img src="https://github.com/heryon/Project_Probability_Horizons/blob/f054b8921d8a0dcbb26c247174975287e6a33571/concept_of_the_probability_horizon.png"  alt="concept_of_the_probability_horizon"/>
+</p>
+
 ## Resumo
 
-Este artigo introduz o **Teorema do Horizonte de Probabilidades** como um resultado estrutural sobre o colapso da incerteza em sistemas probabilísticos adaptativos. O teorema descreve a emergência de um limiar dinâmico-informacional que separa regimes inferencialmente acessíveis de regimes estatisticamente suprimidos à medida que o sistema atualiza suas distribuições sob restrições e feedback adaptativo. O desenvolvimento é explicitamente ancorado na ontologia probabilística inaugurada pela **Curva Finita Central (CFC)** de Heryon Davyd, entendida como uma fronteira estatística global, estática e estrutural, definida em uma variedade de distribuições. Mostra-se que o Horizonte de Probabilidades não compete com a CFC, mas a complementa: enquanto a CFC organiza o espaço probabilístico de forma passiva, o Horizonte emerge como um limiar dinâmico induzido por processos inferenciais, aprendizagem e adaptação. Ambos pertencem à mesma geometria da informação e devem ser compreendidos como objetos de natureza estrutural, não dinâmica no sentido causal clássico.
+Este artigo introduz o Teorema do Horizonte de Probabilidades como um resultado estrutural sobre o colapso da incerteza em sistemas probabilísticos adaptativos. O teorema descreve a emergência de um limiar dinâmico-informacional que separa regimes inferencialmente acessíveis de regimes estatisticamente suprimidos à medida que o sistema atualiza suas distribuições sob restrições e feedback adaptativo. O desenvolvimento é explicitamente ancorado na ontologia probabilística inaugurada pela Curva Finita Central (CFC) de Heryon Davyd, entendida como uma fronteira estatística global, estática e estrutural, definida em uma variedade de distribuições. Mostra-se que o Horizonte de Probabilidades não compete com a CFC, mas a complementa: enquanto a CFC organiza o espaço probabilístico de forma passiva, o Horizonte emerge como um limiar dinâmico induzido por processos inferenciais, aprendizagem e adaptação. Ambos pertencem à mesma geometria da informação e devem ser compreendidos como objetos de natureza estrutural, não dinâmica no sentido causal clássico.
 
 ## Introdução
 
 Em sistemas físicos e computacionais complexos, a incerteza raramente se dissipa de maneira homogênea. Observa-se, em vez disso, a formação de limiares: regiões do espaço de possibilidades que deixam de ser exploradas não por proibição dinâmica, mas por inviabilidade estatística. Esse fenômeno aparece em contextos diversos, desde inferência bayesiana adaptativa até sistemas físicos longe do equilíbrio e arquiteturas de aprendizagem em inteligência artificial.
 
-O **Teorema do Horizonte de Probabilidades** formaliza esse comportamento como um resultado geométrico e informacional. Ele afirma que, sob condições gerais, a atualização inferencial de um sistema probabilístico adaptativo induz a formação de um horizonte: uma fronteira móvel no espaço de distribuições que delimita o conjunto de hipóteses ou estados efetivamente acessíveis.
+O Teorema do Horizonte de Probabilidades formaliza esse comportamento como um resultado geométrico e informacional. Ele afirma que, sob condições gerais, a atualização inferencial de um sistema probabilístico adaptativo induz a formação de um horizonte: uma fronteira móvel no espaço de distribuições que delimita o conjunto de hipóteses ou estados efetivamente acessíveis.
 
 A motivação conceitual deste trabalho é clara: compreender esse horizonte não como um artefato algorítmico ou heurístico, mas como uma consequência inevitável da geometria do espaço probabilístico. Para isso, adotamos como referência estrutural a Curva Finita Central (CFC), que organiza o espaço de distribuições de forma global e estática. O Horizonte de Probabilidades surge, então, como sua contraparte dinâmica-inferencial.
 
 ## Espaço de Probabilidades como Estrutura Geométrica
 
-A descrição probabilística moderna não trata distribuições como objetos auxiliares, mas como entidades centrais. O conjunto de distribuições admissíveis de um sistema, quando parametrizado por restrições macroscópicas ou parâmetros inferenciais, forma naturalmente uma **variedade estatística**.
+A descrição probabilística moderna não trata distribuições como objetos auxiliares, mas como entidades centrais. O conjunto de distribuições admissíveis de um sistema, quando parametrizado por restrições macroscópicas ou parâmetros inferenciais, forma naturalmente uma variedade estatística.
 
 Essa variedade é dotada de uma métrica informacional, tipicamente a métrica de Fisher–Rao, que quantifica distinguibilidade probabilística. Distâncias nesse espaço não medem deslocamentos físicos, mas esforço inferencial: quanto uma distribuição precisa mudar para se tornar estatisticamente distinguível de outra.
 
@@ -255,7 +259,6 @@ Essa não é uma limitação da teoria. É a assinatura geométrica da inteligê
 
 # Referências
 
-## Entropia, Informação e Inferência
 
 [1] Shannon, C. E. (1948). *A Mathematical Theory of Communication*. Bell System Technical Journal, 27, 379–423, 623–656.
 
@@ -267,10 +270,6 @@ Essa não é uma limitação da teoria. É a assinatura geométrica da inteligê
 
 [5] Boltzmann, L. (1896). *Lectures on Gas Theory*. University of California Press.
 
----
-
-## Geometria da Informação
-
 [6] Rao, C. R. (1945). *Information and the Accuracy Attainable in the Estimation of Statistical Parameters*. Bulletin of the Calcutta Mathematical Society, 37, 81–91.
 
 [7] Amari, S.-I. (1985). *Differential-Geometrical Methods in Statistics*. Springer.
@@ -279,19 +278,11 @@ Essa não é uma limitação da teoria. É a assinatura geométrica da inteligê
 
 [9] Amari, S.-I. (2016). *Information Geometry and Its Applications*. Springer.
 
----
-
-## Inferência Bayesiana e Máxima Entropia
-
 [10] Csiszár, I., & Shields, P. C. (2004). *Information Theory and Statistics: A Tutorial*. Foundations and Trends in Communications and Information Theory, 1(4).
 
 [11] Caticha, A. (2012). *Entropic Inference and the Foundations of Physics*. Universidad Nacional de La Plata.
 
 [12] Cover, T. M., & Thomas, J. A. (2006). *Elements of Information Theory*. Wiley-Interscience.
-
----
-
-## Dinâmica de Distribuições e Processos Estocásticos
 
 [13] van Kampen, N. G. (2007). *Stochastic Processes in Physics and Chemistry*. North-Holland.
 
@@ -299,27 +290,15 @@ Essa não é uma limitação da teoria. É a assinatura geométrica da inteligê
 
 [15] Lasota, A., & Mackey, M. C. (1994). *Chaos, Fractals, and Noise: Stochastic Aspects of Dynamics*. Springer.
 
----
-
-## Fluxos no Espaço de Probabilidades e Transporte Ótimo
-
 [16] Jordan, R., Kinderlehrer, D., & Otto, F. (1998). *The Variational Formulation of the Fokker–Planck Equation*. SIAM Journal on Mathematical Analysis, 29(1), 1–17.
 
 [17] Villani, C. (2009). *Optimal Transport: Old and New*. Springer.
 
 [18] Santambrogio, F. (2015). *Optimal Transport for Applied Mathematicians*. Birkhäuser.
 
----
-
-## Transições de Fase e Estruturas Emergentes
-
 [19] Landau, L. D., & Lifshitz, E. M. (1980). *Statistical Physics*. Pergamon Press.
 
 [20] Haken, H. (1977). *Synergetics: An Introduction*. Springer.
-
----
-
-## Horizontes, Estruturas Globais e Geometria
 
 [21] Hawking, S. W., & Ellis, G. F. R. (1973). *The Large Scale Structure of Space-Time*. Cambridge University Press.
 
